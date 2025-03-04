@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="uft-8"> 
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+  <body>
+    <h1>Đóng góp</h1>
+    <form> 
+      <ol> 
+        <li><b> Thông tin về người góp ý</b>
+             <label> Họ và tên: </label> 
+            <input type=“text” id=“username” name”username”>
+        </li>
+          <li><b> Đóng góp ý kiến</b>
+        <label>Ý kiến đóng góp</label><br>
+        <textarea id="yk" name="ý kiến" rows="5" cols="50"></textarea>
+    <input type=“checkbox” name id=“ truyenngan”> Truyện ngắn<br>
+        <input type=“checkbox” name id=“ truyencotich”> Truyện cổ tích<br>
+          <input type=“checkbox” name id=“ truyentranh”> Truyện tranh<br>
+        <input type=“checkbox” name id=“ truyensu”> Truyện lịch sử<br>
+         <input type=“checkbox” name id=“ tdn”> Truyện danh nhân<br>
+   <input type=“submit” name=“cmd” value=“Góp ý”>
+         </li>
+      </ol>
+    </form>
+<form action=“Bai7-NV2.html” method =“GET”>
+các điều khiển nhập dữ liệu
+</form>
+  </body>
+</html>
