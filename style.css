@@ -1,24 +1,17 @@
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-.topnav {
-overflow: hidden;
-background-color: #333
-} 
-.topnav a {
-float: left;
-display:block;
-color: #f2f2f2; 
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+html {
+  height: 100%;
+  width: 100%;
 }
-. .topnav a:hover {
-background-color: #ddd; color: black;
-{
-.column {float: left;}
-.column. side { width: 30%;}
-.column.middle { width: 70%; }
+form {background-color : #f9eadc}
+h1 {color: #000000; font-family}
+h2 {color: #000000;}
+label {font-size: 20px; font-weight: bold;}
+button {background-color: #00ffe1;}
+textarea {background-color: #f9cf85;}
+.title {color: #3c4949;}
+.header {color: #000000; background-color: lightcyan; text-align: center; padding: 15px;}
+.topnav {overflow: hidden; background-color: #00ffb3;}
+.topnav a {float: left; display: block; color: #000000; text-align: center; padding: 14px 16px; text-decoration: none;}
+.topnav a:hover {background-color: #ddd; color: black;}
+.content {background-color: antiquewhite; padding: 10px; height: 300px;} 
+.footer {background-color: #007bff; padding: 15px; text-align: center; color: #9effef;}
